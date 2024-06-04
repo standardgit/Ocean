@@ -1,0 +1,125 @@
+.face {
+    text-transform: uppercase;
+}
+
+.landing-page {
+   
+}
+
+.t-space {
+    word-spacing: 8px;
+}
+
+.heading-small {
+    font-size: 15px;
+    font-family: Work Sans;
+}
+
+.heading-big {
+    font-size: 45px;
+    font-family: prompt;
+    font-weight: 700;
+}
+
+.heading-medium {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Prompt;
+}
+
+.bg-warn {
+    background-color: rgba(207, 136, 29, 1) !important;
+}
+
+.pos{
+    top: 22%;
+    left: 20%
+}
+
+.one {
+    top: 40%;
+    left: 15%;
+}
+
+.text-paint {
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 1), rgba(207, 136, 29, 1));
+    background-clip: text;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.about-image {
+    width: 400px;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(90, 90, 90, 1);
+    width: 500px;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+.about-outline-main {
+    font-size: 20px;
+    font-family: Prompt;
+    font-weight: 600;
+}
+
+.About {
+    
+}
+
+.Services {
+   
+}
+
+.service-image {
+    width: 90px;
+}
+
+.s-width {
+    width: 300px;
+}
+
+.t-width {
+    width: 500px;
+}
+.star-color {
+    color:rgba(207, 136, 29, 1)
+}
+
+.star-color-reg {
+    color: rgba(90, 90, 90, 1)
+}
+
+.w-90 {
+    width: 90%;
+}
+.pricing-desc {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+}
+
+.faq-list {
+    color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(238, 238, 238, 1);
+}
+
+.faq-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cta {
+    background-color: rgba(207, 136, 29, 1);
+}
+
+.copyright {
+    background-color: black;
+}

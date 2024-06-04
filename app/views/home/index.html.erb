@@ -1,0 +1,344 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+     <a class="navbar-brand" href="#">
+      <%= image_tag("Logo.png") %>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item pe-4">
+          <a class="nav-link text-uppercase active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item pe-4">
+          <a class="nav-link text-uppercase" href="#">About</a>
+        </li>
+		<li class="nav-item pe-4">
+          <a class="nav-link text-uppercase" href="#">Pricing</a>
+        </li>
+		<li class="nav-item pe-4">
+          <a class="nav-link text-uppercase" href="#">Service</a>
+        </li>
+		<li class="nav-item pe-4">
+          <a class="nav-link text-uppercase" href="#">Contact</a>
+        </li>
+      </ul>
+      <button type="button" class="btn rounded-pill border border-warning px-5 py-2 face">login</button>
+	  <button type="button" class="btn rounded-pill border border-warning px-5 py-2 face">Sign Up</button>
+    </div>
+  </div>
+</nav>
+<div class="landing-page position-relative">
+	<%= image_tag("Clean1.png", class: "img-fluid") %>
+	<div class="position-absolute text-center col-7 pos">
+		<span class="small heading-small d-block text-uppercase text-light text-center t-space">Committed to Top Quality Services</span>
+		<span class="d-block text-uppercase heading-big text-light">Professional Residential and Commercial Cleaning Services</span>
+		<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">Book Now</button>
+	</div>
+</div>
+<main class="p-5"> 
+	<section class="About mt-5  p-5 row">
+		<div class="col p-5 position-relative">
+			<div class="position-relative">
+                <%= image_tag("Clean2.png", class: "about-image") %>
+                <%= image_tag("StarGold.png", class: "position-absolute ps-5 pt-5") %>
+            </div>
+			<div class="w-auto position-absolute d-flex align-items-end one">
+				<%= image_tag("StarGold.png", class: "pe-4 pb-5") %>
+				<%= image_tag("Clean3.png", class: "about-image po") %>
+			</div>
+		</div>
+		<div class="col pt-5 pe-3">
+			<div class=" pe-4 text-start">
+				<h1 class="about-text pt-5 mb-5">
+					<span class="heading-small d-block text-uppercase t-space">About Shift Group</span>
+					<span class="heading-medium d-block text-uppercase">Residential Cleaning Services</span>
+				</h1>
+				<p class="lh-lg small col-10 text-secondary mb-3">In a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. </p>
+				<p class="lh-lg small col-10 text-secondary">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
+				<div class="d-flex gap-5">
+					<h1 class="about-outline-content">
+						<span class="about-outline-main d-block">53K</span>
+						<span class="text-secondary heading-small d-block">Layout Done</span>
+					</h1>
+					<h1>
+						<span class="about-outline-main d-block">10K</span>
+						<span class="text-secondary heading-small d-block">Projects Done</span>
+					</h1>
+					<h1>
+						<span class="about-outline-main d-block">150</span>
+						<span class="text-secondary heading-small d-block">Gets Awards</span>
+					</h1>
+				</div>
+				<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">Learn More</button>
+			</div>
+		</div>
+	</section>
+	<section class="Services text-center my-5 py-5">
+		<h1 class="about-text pt-5 mb-5">
+			<span class="heading-small d-block text-uppercase t-space py-4">Services Now</span>
+			<span class="heading-medium d-block text-uppercase">What We Offer Services</span>
+		</h1>
+		<div class="services-content d-flex justify-content-center pb-3 gap-4">
+			<div class="services-content-item text-center d-flex flex-column align-items-center">
+				<%= image_tag("carpet.png", class: "service-image py-3") %>
+				<h2>
+					<span class="about-outline-main d-block py-3">Carpet Cleaning</span>
+					<span class="text-secondary heading-small d-block s-width mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
+				</h2>
+			</div>
+			<div class="services-content-item text-center d-flex flex-column align-items-center">
+				<%= image_tag("Bed.png", class: "service-image py-3") %>
+				<h2>
+					<span class="about-outline-main d-block py-3">Bedroom Cleaning</span>
+					<span class="text-secondary heading-small d-block s-width mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</span>
+				</h2>
+			</div>
+			<div class="services-content-item text-center d-flex flex-column align-items-center">
+				<%= image_tag("Sofa.png", class: "service-image py-3") %>
+				<h2>
+					<span class="about-outline-main d-block py-3">Sofa Cleaning</span>
+					<span class="text-secondary heading-small d-block s-width mt-3">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</span>
+				</h2>
+			</div>
+			<div class="services-content-item text-center d-flex flex-column align-items-center">
+				<%= image_tag("Toilet.png", class: "service-image py-3") %>
+				<h2>
+					<span class="about-outline-main d-block py-3">Toilet Cleaning</span>
+					<span class="text-secondary heading-small d-block s-width mt-3">The standard chunk of Lorem Ipsum used since the 1500s</span>
+				</h2>
+			</div>
+		</div>
+		<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">View all services</button>
+		<div class="about-video align-items-center text-center d-flex flex-column justify-content-center mt-5 pt-5">
+			<h1 class="services-heading-text d-flex flex-column align-items-center pb-5">
+				<span class="heading-small d-block text-uppercase t-space py-3">Play This Video To How Make It</span>
+				<span class="heading-medium d-block text-uppercase col-8">Click on this video to check how we work with our clients</span>
+			</h1>
+			<div class="about-video-content pt-3">
+				<%= image_tag("cleanVid.png", class: "about-video-image col-9 image-fluid") %>
+			</div>
+		</div>
+	</section>
+	<section class="Pricing my-5 mx-5 py-5">
+		<div class="mx-5 pt-5">
+			<h1 class="text-start col-6">
+				<span class="d-block heading-small text-uppercase t-space py-4" >Our Pricing</span>
+				<span class="heading-medium text-uppercase ">The right plan for your business</span>
+			</h1>
+			<div class="pricing-table py-4">
+				<div class="d-flex align-items-center mt-4 py-3 px-5 justify-content-between border border-light-subtle">
+					<div class="Pricing-title fs-5 fw-bold">Starter</div>
+					<div>
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-circle-check"></i>
+							<h3 class="d-block pt-1 pricing-desc">1 Domain</h3>
+						</div>
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-circle-check"></i>
+							<h3 class="pricing-desc d-block pt-1">1 Year Premium Support</h3>
+						</div>
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-circle-check"></i>
+							<h3 class="pricing-desc d-block pt-1">Monthly Updates</h3>
+						</div>
+					</div>
+					<div class="fs-3 fw-bold">Free</div>
+					<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">Purchase Now</button>
+				</div>
+				<div class="d-flex align-items-center mt-4 py-3 px-5 justify-content-between border border-light-subtle">
+					<div class="Pricing-title fs-5 fw-bold">Delx Pro</div>
+					<div>
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-circle-check"></i>
+							<h3 class="d-block pt-1 pricing-desc">1 Domain</h3>
+						</div>
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-circle-check"></i>
+							<h3 class="pricing-desc d-block pt-1">1 Year Premium Support</h3>
+						</div>
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-circle-check"></i>
+							<h3 class="pricing-desc d-block pt-1">Monthly Updates</h3>
+						</div>
+					</div>
+					<div class="fs-3 fw-bold">32$</div>
+					<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">Purchase Now</button>
+				</div>
+				<div class="d-flex align-items-center mt-4 py-3 px-5 justify-content-between border border-light-subtle">
+					<div class="Pricing-title fs-5 fw-bold">Delx plus</div>
+					<div>
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-circle-check"></i>
+							<h3 class="d-block pt-1 pricing-desc">1 Domain</h3>
+						</div>
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-circle-check"></i>
+							<h3 class="pricing-desc d-block pt-1">1 Year Premium Support</h3>
+						</div>
+						<div class="d-flex align-items-center">
+							<i class="fa-solid fa-circle-check"></i>
+							<h3 class="pricing-desc d-block pt-1">Monthly Updates</h3>
+						</div>
+					</div>
+					<div class="fs-3 fw-bold">64$</div>
+					<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">Purchase Now</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="Testimonials my-5 mx-5 py-5">
+		<div class="testimonials-content text-center">
+			<h1 class=" d-flex flex-column align-items-center pb-5">
+				<span class="d-block heading-small text-uppercase py-4 t-space" >Client Feedback</span>
+				<span class="heading-medium text-uppercase t-width">What do they say about Cleaning Services</span>
+			</h1>
+			<div class="row row-cols-3">
+				<div class="col">
+					<div class="card d-flex justify-content-center align-items-center text-center border-0">
+						<div class="card-body text-center">
+							<p class="card-text text-secondary heading-small d-block s-width mt-3">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+						</div>
+						<%= image_tag("Ellipse 4.png", class: "col-3 mx-auto") %>
+						<div class="rating-stars pt-3">
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-regular fa-star star-color-reg"></i>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Tatiana Toff</h5>
+							<p class="card-text"><small class="text-body-secondary">Customer</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card d-flex justify-content-center align-items-center text-center border-0">
+						<div class="card-body text-center">
+							<p class="card-text text-secondary heading-small d-block s-width mt-3">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+						</div>
+						<%= image_tag("Ellipse 4 (1).png", class: "col-3 mx-auto") %>
+						<div class="rating-stars pt-3">
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-regular fa-star star-color-reg"></i>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Leo Bator</h5>
+							<p class="card-text"><small class="text-body-secondary">Customer</small></p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card d-flex justify-content-center align-items-center text-center border-0">
+						<div class="card-body text-center">
+							<p class="card-text text-secondary heading-small d-block s-width mt-3">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+						</div>
+						<%= image_tag("Ellipse 4 (2).png", class: "col-3 mx-auto") %>
+						<div class="rating-stars pt-3">
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-solid fa-star star-color"></i>
+							<i class="fa-regular fa-star star-color-reg"></i>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Tatiana Toff</h5>
+							<p class="card-text"><small class="text-body-secondary">Customer</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="Faq px-5 row">
+		<div class="col">
+			<div class="about-writeup-content px-5 text-start">
+				<h1 class="about-text mb-5">
+					<span class="heading-small d-block text-uppercase t-space py-4">Frequently Asked Question</span>
+					<span class="heading-medium d-block text-uppercase">Get Answers to Common Questions About Our App</span>
+				</h1>
+				<div class="w-90">
+					<a class=" faq-list text-decoration-none d-flex justify-content-between align-items-center border py-2 px-3 mt-3" href="#">
+						<h1 class="faq-text">What do you not clean?</h1>
+						<i class="fa-solid fa-chevron-down"></i>
+					</a>
+					<a class=" faq-list text-decoration-none d-flex justify-content-between align-items-center border py-2 px-3 mt-3" href="#">
+						<h1 class="faq-text">Do I need to be home for every cleaning service?</h1>
+						<i class="fa-solid fa-chevron-down"></i>
+					</a>
+					<a class=" faq-list text-decoration-none d-flex justify-content-between align-items-center border py-2 px-3 mt-3" href="#">
+						<h1 class="faq-text">How will our relationship work?</h1>
+						<i class="fa-solid fa-chevron-down"></i>
+					</a>
+					<a class=" faq-list text-decoration-none d-flex justify-content-between align-items-center border py-2 px-3 mt-3" href="#">
+						<h1 class="faq-text">What time does your team arrive?</h1>
+						<i class="fa-solid fa-chevron-down"></i>
+					</a>
+
+				</div>
+				<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">View all Faq</button>
+			</div>
+		</div>
+		<div class="col position-relative">
+			<div class="position-relative">
+                <%= image_tag("Clean2.png", class: "about-image") %>
+                <%= image_tag("StarGold.png", class: "position-absolute ps-5 pt-5") %>
+            </div>
+			<div class="w-auto position-absolute d-flex align-items-end one">
+				<%= image_tag("StarGold.png", class: "pe-4 pb-5") %>
+				<%= image_tag("Clean3.png", class: "about-image po") %>
+			</div>
+		</div>
+	</section>
+</main>
+<footer class="d-columnn mt-5">
+	<div class="cta d-flex mt-5 justify-content-between py-4 px-5 align-items-center">
+		<p class="d-block heading-medium text-uppercase text-light col-6">Ready to Dive in? start your free trial today</p>
+		<div class="cta-button">
+			<button type="button" class="btn rounded-pill border border-warning px-5 py-2 face">login</button>
+	  		<button type="button" class="btn rounded-pill border border-warning px-5 py-2 face">Sign Up</button>
+		</div>
+	</div>
+	<div class="socials d-flex p-5 col-12">
+		<div class="ms-5">
+			<%= image_tag("Logo.png", class: "pb-4") %>
+			<h1 class="faq-text">What time does your team arrive?</h1>
+		</div>
+		<div class="social-hanndles d-flex mx-auto justify-content-between">
+			<div class="pe-4">
+				<h2>
+					<span class="content-title d-block fs-5 pb-4 fw-bold">Contact:</span>
+					<span class="cta-desc d-block fs-6 fw-3 align-items-center px-3 py-1">Info@ocean.com</span>
+					<span class="cta-desc d-block fs-6 fw-3 align-items-center px-3 py-1">+1 403-253-7717 </span>
+				</h2>
+			</div>
+			<div class="pe-4">
+				<h2>
+					<span class="content-title d-block fs-5 pb-4 fw-bold">Address:</span>
+					<span class="cta-desc d-block fs-6 fw-3 align-items-center px-3 py-1">123 Ave, Lorem City, Site Country,</span>
+					<span class="cta-desc d-block fs-6 fw-3 align-items-center px-3 py-1">the World </span>
+				</h2>
+			</div>
+			<div class="spread d-flex align-items-end justify-content-between mx-auto">
+				<h2>
+					<span class="content-title d-block fs-5 pb-4 fw-bold">Social:</span>
+					<span class="cta-desc d-block fs-6 fw-3 align-items-center px-3 py-1">Instagram</span>
+					<span class="cta-desc d-block fs-6 fw-3 align-items-center px-3 py-1">linkedin</span>
+				</h2>
+				<h2>
+					<span class="cta-desc d-block fs-6 fw-3 align-items-center px-3 py-1">Twitter</span>
+					<span class="cta-desc d-block fs-6 fw-3 align-items-center px-3 py-1">Youtube</span>
+				</h2>
+				<h2>
+					<span class="cta-desc d-block fs-6 fw-3 align-items-center px-3 py-1">Facebook</span>
+					<span class="cta-desc d-block fs-6 fw-3 align-items-center px-3 py-1">Vimeo</span>
+				</h2>
+			</div>
+	</div>
+</footer>
+
