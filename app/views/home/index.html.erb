@@ -24,85 +24,89 @@
           <a class="nav-link text-uppercase" href="#">Contact</a>
         </li>
       </ul>
-      <button type="button" class="btn rounded-pill border border-warning px-5 py-2 face">login</button>
+      <button type="button" class="btn rounded-pill border border-warning px-5 py-2 me-3 face">login</button>
 	  <button type="button" class="btn rounded-pill border border-warning px-5 py-2 face">Sign Up</button>
     </div>
   </div>
 </nav>
 <div class="landing-page position-relative">
 	<%= image_tag("Clean1.png", class: "img-fluid") %>
-	<div class="position-absolute text-center col-7 pos">
-		<span class="small heading-small d-block text-uppercase text-light text-center t-space">Committed to Top Quality Services</span>
+	<div class="position-absolute text-center w-50 pos">
+		<span class="heading-small d-block text-uppercase text-light text-center t-space">Committed to Top Quality Services</span>
 		<span class="d-block text-uppercase heading-big text-light">Professional Residential and Commercial Cleaning Services</span>
-		<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">Book Now</button>
+		<button type="button" class="btn rounded-pill text-light px-4 py-2 mt-4 bg-warn">Book Now</button>
 	</div>
 </div>
-<main class="p-5"> 
-	<section class="About mt-5  p-5 row">
-		<div class="col p-5 position-relative">
-			<div class="position-relative">
-                <%= image_tag("Clean2.png", class: "about-image") %>
-                <%= image_tag("StarGold.png", class: "position-absolute ps-5 pt-5") %>
-            </div>
-			<div class="w-auto position-absolute d-flex align-items-end one">
-				<%= image_tag("StarGold.png", class: "pe-4 pb-5") %>
-				<%= image_tag("Clean3.png", class: "about-image po") %>
-			</div>
-		</div>
-		<div class="col pt-5 pe-3">
-			<div class=" pe-4 text-start">
-				<h1 class="about-text pt-5 mb-5">
-					<span class="heading-small d-block text-uppercase t-space">About Shift Group</span>
-					<span class="heading-medium d-block text-uppercase">Residential Cleaning Services</span>
-				</h1>
-				<p class="lh-lg small col-10 text-secondary mb-3">In a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. </p>
-				<p class="lh-lg small col-10 text-secondary">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
-				<div class="d-flex gap-5">
-					<h1 class="about-outline-content">
-						<span class="about-outline-main d-block">53K</span>
-						<span class="text-secondary heading-small d-block">Layout Done</span>
-					</h1>
-					<h1>
-						<span class="about-outline-main d-block">10K</span>
-						<span class="text-secondary heading-small d-block">Projects Done</span>
-					</h1>
-					<h1>
-						<span class="about-outline-main d-block">150</span>
-						<span class="text-secondary heading-small d-block">Gets Awards</span>
-					</h1>
+<main class="mt-5 p-sm-1"> 
+	<section class="container py-5">
+		<div class="row">
+			<div class="col-12 col-lg-5 position-relative">
+				<div class="position-relative">
+					<%= image_tag("Clean2.png", class: "col-9") %>
+					<%= image_tag("StarGold.png", class: "position-absolute ps-5 pt-5 d-sm-none") %>
 				</div>
-				<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">Learn More</button>
+				<div class="w-auto position-absolute d-flex align-items-end one">
+					<%= image_tag("StarGold.png", class: "pe-4 pb-5 d-sm-none") %>
+					<%= image_tag("Clean3.png", class: "col-9") %>
+				</div>
+			</div>
+			<div class="col-12 col-lg-7 pt-sm-0 pt-5 pe-3">
+				<div class=" pe-4 text-start">
+					<h1 class="about-text pt-sm-0 pt-5 mb-5">
+						<span class="heading-small d-block text-uppercase t-space">About Shift Group</span>
+						<span class="fs-1 fw-bold heading-medium d-block text-uppercase">Residential Cleaning Services</span>
+					</h1>
+					<p class="lh-lg small col-10 text-secondary mb-3">In a professional context it often happens that private or corporate clients corder a publication to be made and presented with the actual content still not being ready. </p>
+					<p class="lh-lg small col-10 text-secondary">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
+					<div class="d-flex gap-5">
+						<h1 class="about-outline-content">
+							<span class="about-outline-main d-block">53K</span>
+							<span class="text-secondary heading-small d-block">Layout Done</span>
+						</h1>
+						<h1>
+							<span class="about-outline-main d-block">10K</span>
+							<span class="text-secondary heading-small d-block">Projects Done</span>
+						</h1>
+						<h1>
+							<span class="about-outline-main d-block">150</span>
+							<span class="text-secondary heading-small d-block">Gets Awards</span>
+						</h1>
+					</div>
+					<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">Learn More</button>
+				</div>
 			</div>
 		</div>
 	</section>
-	<section class="Services text-center my-5 py-5">
-		<h1 class="about-text pt-5 mb-5">
-			<span class="heading-small d-block text-uppercase t-space py-4">Services Now</span>
-			<span class="heading-medium d-block text-uppercase">What We Offer Services</span>
-		</h1>
-		<div class="services-content d-flex justify-content-center pb-3 gap-4">
-			<div class="services-content-item text-center d-flex flex-column align-items-center">
+	<section class="container py-5 text-center">
+		<div class="col-12 text-center">
+			<h1 class="about-text pt-5 mb-5">
+				<span class="heading-small d-block text-uppercase t-space py-4">Services Now</span>
+				<span class="heading-medium d-block text-uppercase">What We Offer Services</span>
+			</h1>
+		</div>
+		<div class="row g-3">
+			<div class="col-12 col-lg-3 text-center">
 				<%= image_tag("carpet.png", class: "service-image py-3") %>
 				<h2>
 					<span class="about-outline-main d-block py-3">Carpet Cleaning</span>
 					<span class="text-secondary heading-small d-block s-width mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</span>
 				</h2>
 			</div>
-			<div class="services-content-item text-center d-flex flex-column align-items-center">
+			<div class="col-12 col-lg-3 text-center">
 				<%= image_tag("Bed.png", class: "service-image py-3") %>
 				<h2>
 					<span class="about-outline-main d-block py-3">Bedroom Cleaning</span>
 					<span class="text-secondary heading-small d-block s-width mt-3">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</span>
 				</h2>
 			</div>
-			<div class="services-content-item text-center d-flex flex-column align-items-center">
+			<div class="col-12 col-lg-3 text-center">
 				<%= image_tag("Sofa.png", class: "service-image py-3") %>
 				<h2>
 					<span class="about-outline-main d-block py-3">Sofa Cleaning</span>
 					<span class="text-secondary heading-small d-block s-width mt-3">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born</span>
 				</h2>
 			</div>
-			<div class="services-content-item text-center d-flex flex-column align-items-center">
+			<div class="col-12 col-lg-3 text-center">
 				<%= image_tag("Toilet.png", class: "service-image py-3") %>
 				<h2>
 					<span class="about-outline-main d-block py-3">Toilet Cleaning</span>
@@ -110,7 +114,7 @@
 				</h2>
 			</div>
 		</div>
-		<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">View all services</button>
+		<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-5 face bg-warn">View all services</button>
 		<div class="about-video align-items-center text-center d-flex flex-column justify-content-center mt-5 pt-5">
 			<h1 class="services-heading-text d-flex flex-column align-items-center pb-5">
 				<span class="heading-small d-block text-uppercase t-space py-3">Play This Video To How Make It</span>
@@ -145,7 +149,7 @@
 						</div>
 					</div>
 					<div class="fs-3 fw-bold">Free</div>
-					<button type="button" class="btn rounded-pill  text-light px-4 py-2 mt-4 face bg-warn">Purchase Now</button>
+					<button type="button" class="btn rounded-pill  text-light px-4 py-2 face bg-warn">Purchase Now</button>
 				</div>
 				<div class="d-flex align-items-center mt-4 py-3 px-5 justify-content-between border border-light-subtle">
 					<div class="Pricing-title fs-5 fw-bold">Delx Pro</div>
@@ -286,12 +290,12 @@
 		</div>
 		<div class="col position-relative">
 			<div class="position-relative">
-                <%= image_tag("Clean2.png", class: "about-image") %>
+                <%= image_tag("Clean2.png", class: "col-9") %>
                 <%= image_tag("StarGold.png", class: "position-absolute ps-5 pt-5") %>
             </div>
 			<div class="w-auto position-absolute d-flex align-items-end one">
 				<%= image_tag("StarGold.png", class: "pe-4 pb-5") %>
-				<%= image_tag("Clean3.png", class: "about-image po") %>
+				<%= image_tag("Clean3.png", class: "col-9 po") %>
 			</div>
 		</div>
 	</section>

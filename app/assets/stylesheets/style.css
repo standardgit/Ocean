@@ -1,7 +1,3 @@
-.face {
-    text-transform: uppercase;
-}
-
 .landing-page {
    
 }
@@ -11,12 +7,12 @@
 }
 
 .heading-small {
-    font-size: 15px;
+    font-size: 1rem;
     font-family: Work Sans;
 }
 
 .heading-big {
-    font-size: 45px;
+    font-size: 3rem;
     font-family: prompt;
     font-weight: 700;
 }
@@ -32,8 +28,8 @@
 }
 
 .pos{
-    top: 22%;
-    left: 20%
+    top: 23%;
+    left: 22%
 }
 
 .one {
@@ -68,14 +64,6 @@
     font-size: 20px;
     font-family: Prompt;
     font-weight: 600;
-}
-
-.About {
-    
-}
-
-.Services {
-   
 }
 
 .service-image {
@@ -120,6 +108,24 @@
     background-color: rgba(207, 136, 29, 1);
 }
 
-.copyright {
-    background-color: black;
+@media screen and (max-width: 480px) {
+    .heading-small {
+        font-size: .5rem !important;
+    }
+
+    .heading-big {
+        font-size: 1.5srem !important;
+    }
+
+    .heading-medium {
+        font-size: 1rem !important;
+    }
+
+    .t-space {
+        word-spacing: 0 !important;
+    }
+
+    .btn {
+        font-size: .5rem !important;
+    }
 }
