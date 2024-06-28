@@ -1,3 +1,20 @@
+.btn-warning {
+    background-color: rgba(207, 136, 29, 1) !important;
+    border: 1px solid  rgba(207, 136, 29, 1) !important
+}
+
+.btn-outline-warning {
+    border: 1px solid  rgba(207, 136, 29, 1) !important;
+}
+
+.footer-bg {
+    background-color: rgba(207, 136, 29, 1) !important;
+}
+
+.btn {
+    color: rgba(207, 136, 29, 1) !important;
+} 
+
 .hero {
     background-image: url("Clean1.png");
     background-size: cover;
@@ -12,6 +29,16 @@
 
 .heading-small {
     font-size: clamp(.125rem, 3vw, 1rem);
+}
+
+.text-gradient {
+    background-image:linear-gradient(to right, rgba(115, 115, 115, 1), rgba(207, 136, 29, 1));
+    background-clip: text;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 .one {
@@ -31,7 +58,7 @@
 
 .four {
     top: 10%;
-    right: 20%;
+    right: 12%;
 }
 
 .five {
